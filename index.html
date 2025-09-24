@@ -1,96 +1,135 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>HTML + CSS + JS</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="./estilos.css">
-    </head> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Michroma&family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>WordTalk.</title>
+</head>
     <body>
         <header>
-            <h1>Fundamentos do Desenvolvimento Web</h1>
-            <h2>Aprendendo Front-end</h2>
+            <div class="row cabecalho">
+                <h1 class="col-lg-6 cabecalho__titulo">WordTalk.</h1>
+                <nav class="col-lg-6 cabecalho__navabar">
+                    <a href="#sobre" class="cabecalho__navabar__componentes">Sobre</a>
+                    <a href="#profissionais" class="cabecalho__navabar__componentes">Profissionais</a>
+                    <a href="#servicos" class="cabecalho__navabar__componentes">Serviços</a>
+                </nav>
+            </div>
         </header>
-
-        <nav></nav>
-
-        <article id="arthtml">
-            <h3>HTML - Linguagem de marcação de hypertextos</h3>
-            <p>
-            HTML5 é uma linguagem de marcação para a World Wide Web e é uma tecnologia chave da Internet, originalmente proposto por Opera Software. 
-            É a quinta versão da linguagem HTML.
-            </p>
-            <img src="./images/logo-html.png" alt="">
-            <h4>Características</h4>
-            <ul>
-                <li>Linguagem de marcação</li>
-                <li>Interpretada pelo navegador</li>
-                <li>Serve para criar a estrutura de uma página web</li>
-                <li>Não é case sensitive</li>
-                <li>Sua sintaxe é formada por tags</li>
-            </ul>
-
-            <h6>
-                <a href="https://www.w3schools.com/html/" target="_blank">
-                    Clique aqui
-                </a> para acessar a documentação oficial
-            </h6>
-        </article>
-
-        <article id="artcss">
-            <h3>CSS - Folhas de estilos em cascata</h3>
-            <p>
-                CSS3 é a terceira mais nova versão das famosas Cascading Style Sheets, pela qual se define estilos para um projeto web. Com efeitos de transição, imagem, imagem de fundo/background e outros, pode-se criar estilos únicos para seus projetos web, 
-                alterando diversos aspectos de design no layout da página.
-            </p>
-            <img src="./images/logo-css.png" alt="">
-            <h4>Características</h4>
-            <ul>
-                <li>Linguagem de estilização</li>
-                <li>Interpretada pelo navegador</li>
-                <li>Serve para estilizar o html</li>
-                <li>Não é case sensitive</li>
-                <li>Pode ser utilizada de 3 formas: externo, bloco ou in-line</li>
-            </ul>
-
-            <h6>
-                <a href="https://www.w3schools.com/css/" target="_blank">
-                    Clique aqui
-                </a> para acessar a documentação oficial
-            </h6>
-        </article>
-
-        <article id="artjs">
-            <h3>JS - Linguagem de programação JavaScript</h3>
-            <p>
-                JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. 
-                Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web.
-            </p>
-            <img src="./images/logo-js.png" alt="">
-            <h4>Características</h4>
-            <ul>
-                <li>Linguagem de programação</li>
-                <li>Interpretada pelo navegador</li>
-                <li>Serve para desenvolver as funcionalidades e ações que as páginas web devem executar</li>
-                <li>É case sensitive</li>
-            </ul>
-
-            <h6>
-                <a href="https://www.w3schools.com/js/" target="_blank">
-                    Clique aqui
-                </a> para acessar a documentação oficial
-            </h6>
-        </article>
-
+        <main>
+            <section>
+                <div class="row sobre">
+                    <div class="col-lg-12">
+                        <h2 class="sobre__titulo">
+                            Sobre a empresa
+                        </h2>
+                        <p class="sobre__texto">
+                        A WorldTalk Ensino de Idiomas Ltda., com nome fantasia WorldTalk, foi fundada em 2018 com o propósito de aproximar pessoas do mundo através do aprendizado de idiomas. A escola nasceu da paixão de professores por diferentes culturas e línguas, criando um espaço acolhedor e moderno, onde cada aluno aprende de forma prática e personalizada. Ao longo dos anos, a WorldTalk tornou-se referência no ensino de inglês, espanhol, francês, alemão e mandarim, oferecendo metodologias interativas, tecnologia aplicada e professores  altamente capacitados.
+                        </p>
+                        <div class="principios">
+                            <h2 class="principios__titulos">
+                                Missão
+                            </h2>
+                            <p>Ensinar idiomas de forma eficaz, estimulando a comunicação e a conexão cultural.</p>
+                            <h2 class="principios__titulos">
+                                Visão
+                            </h2>
+                            <p>Ser referência no ensino de idiomas no Brasil até 2030.</p>
+                            <h2 class="principios__titulos">
+                                Valores
+                            </h2> 
+                            <p>Qualidade, Inclusão, Inovação, Empatia e Diversidade Cultural.</p>
+                        </div>     
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="row profissionais" id="profissionais">
+                    <div class="col-lg-12">
+                        <h2 class="profissionais__titulo">Profissionais</h2>
+                    </div>
+                    <div class="row col-lg-12 profissionais__cards">
+                        <div class="col-lg-3 profissionais__card">
+                            <img class="profissionais__foto" src="./assets/joaomendes.webp" alt="foto de joao mendes">
+                            <h2 class="profissionais__nome">João Mendes</h2>
+                            <p>Professor de Espanhol e Francês.</p>
+                        </div>
+                        <div class="col-lg-3 profissionais__card">
+                            <img class="profissionais__foto" src="./assets/mariana.webp" alt="foto de mariana">
+                            <h2 class="profissionais__nome">Mariana Souza</h2>
+                            <p>Professora de Alemão e Mandarim.</p>
+                        </div>
+                        <div class="col-lg-3 profissionais__card">
+                            <img class="profissionais__foto" src="./assets/rafaeli_real.jpg" alt="foto de rafaeli">
+                            <h2 class="profissionais__nome">Rafaeli Pinheiro</h2>
+                            <p>Coordenador Pedagógico e Professor de Inglês.</p>
+                        </div>                
+                    </div>
+                </div>
+            </section>
+            <section class="servicos" id="servicos">
+                <h2 class="servicos__titulo">Serviços</h2>
+                <div class="servicos__cursos">
+                    <h2 class="servicos__curso__titulo">Curso de Inglês</h2>
+                    <p>Foco em conversação, gramática e compreensão auditiva, do iniciante ao avançado.</p>
+                    <div class="servicos__curso__fotos">
+                        <img class="servicos__curso__foto" src="./assets/aula_ingles1.jpg" alt="foto de aula de ingles 1">
+                        <img class="servicos__curso__foto" src="./assets/aula_espanhol2.webp" alt="foto de aula de ingles 2">
+                        <img class="servicos__curso__foto" src="./assets/aula_ingles1.jpg" alt="foto de aula de ingles 1">
+                    </div>
+                    <h2 class="servicos__curso__titulo">Curso de Espanho</h2>
+                    <p>Comunicação prática e vocabulário voltado para viagens, negócios e vida cotidiana.</p>
+                    <div class="servicos__curso__fotos">
+                        <img class="servicos__curso__foto" src="./assets/aula_espanhol1.png" alt="foto de aula de espanhol 1">
+                        <img class="servicos__curso__foto" src="./assets/aula_espanhol2.webp" alt="foto de aula de espanhol 2">
+                        <img class="servicos__curso__foto" src="./assets/aula_espanhol1.png" alt="foto de aula de espanhol 1">
+                    </div>
+                    <h2 class="servicos__curso__titulo">Treinamendo Coorporativo</h2>
+                    <p>Programas sob medida para empresas que desejam aprimorar a comunicação internacional de seus colaboradores.</p>
+                    <div class="servicos__curso__fotos">
+                        <img class="servicos__curso__foto" src="./assets/coorporativo1.jpg" alt="foto de aula coorporativa 1">
+                        <img class="servicos__curso__foto" src="./assets/coorporativo2.webp" alt="foto de aula coorporativa 2">
+                        <img class="servicos__curso__foto" src="./assets/coorporativo1.jpg" alt="foto de aula coorporativa 1">
+                    </div>                    
+                </div>
+            </section>
+            <section>
+                <form>
+                    <label>teste</label><br>
+                    <input type="text"><br>
+                </form>
+            </section>
+        </main>
         <footer>
-            <h4>
-                Todos os direitos reservados.
-            </h4>
+            <section class="ttt">
+                <h2 class="contato__titulo">Contato</h2>
+                <p class="dedicatoria__texto">
+                    "Fale com o mundo, fale com confiança."
+                </p>
+            </section>
+            <section class="contatos">
+                <div class="contato">
+                    <a class="contatos__link" href="http://WA.me//+5549989167742" target="_blank">
+                        <img class="contato__logo" src="./assets/whatsapp_785969.png" alt="logotipo Whatsapp">
+                    </a>
+                </div>
+                <div class="contato">
+                    <a class="contatos__link" href="www.youtube.com" target="_blank">
+                        <img class="contato__logo" src="./assets/instagram_1532512.png" alt="logotipo Instagram">
+                    </a>
+                </div>
+                <div class="contato">
+                    <a class="contatos__link" href="https://www.google.com/" target="_blank">
+                        <img class="contato__logo" src="./assets/github_1051326.png" alt="logotipo github">
+                    </a>
+                </div>
+            </section>
         </footer>
-                    
-    </body>   
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    </body>
 </html>
-
-
-
-
-

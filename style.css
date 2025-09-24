@@ -1,0 +1,212 @@
+
+
+:root {
+    --cor__principal: #19183B;
+    --cor__secundaria: #E7F2EF;
+    --cor__terciaria: #708993;
+    --fonte__padrao: "Tomorrow", sans-serif;
+}
+
+
+* {
+    padding: 0rem;
+    margin: 0rem;
+}
+
+body{
+    size: 100vh;
+}
+
+.cabecalho {
+    padding: 1rem 4rem;
+    background-color: var(--cor__principal);
+    font-size: 1.5rem;
+    font-family: var(--fonte__padrao);
+    color: var(--cor__secundaria);
+}
+
+.cabecalho__navabar{
+    text-align: right;
+}
+
+.cabecalho__navabar__componentes {
+    color: var(--cor__secundaria);
+    text-decoration: none;
+    padding: 1% 0% 0% 0%;
+}
+
+.cabecalho__navabar__componentes:hover{
+    color: var(--cor__terciaria);
+    font-size: 2rem;
+
+}
+
+main {
+    background-color: var(--cor__secundaria);
+    font-family: var(--fonte__padrao);
+    text-align: justify;
+    padding: 1% 15%;
+    gap: 5%;
+}
+
+.sobre__titulo {
+    color: var(--cor__principal);
+    text-align: center;
+    font-size: 2rem;
+    padding: 5% 3%;
+}
+
+p {
+    font-size: 1.5rem;
+    text-align: left;
+    color: var(--cor__principal)
+}
+
+.principios {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+}
+
+.principios__titulos {
+    padding: 1.5% 0%;
+    color: var(--cor__principal);
+}
+
+.profissionais__titulo {
+    color: var(--cor__principal);
+    text-align: center;
+    font-size: 2rem;
+    padding: 5% 3%;
+}
+
+.profissionais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profissionais__cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.profissionais__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15rem;  
+    height: 25rem;
+}
+
+.profissionais__nome {
+    color: var(--cor__principal);
+}
+
+.profissionais__foto {
+    width: 15rem;
+    height: auto;
+    border-color: var(--cor__principal);
+    border-style: solid;
+    border-radius: 100%;
+    box-shadow: 0px 0px 10px #000000;
+}
+
+.servicos {
+    display: flex;
+    flex-direction: column;
+}
+
+.servicos__titulo {
+    color: var(--cor__principal);
+    text-align: center;
+    font-size: 2rem;
+    padding: 5% 3%;
+}
+
+.servicos__cursos{
+    display: flex;
+    flex-direction: column;
+}
+
+.servicos__curso__titulo{
+    font-size: 2rem;
+    text-align: left;
+    color: var(--cor__principal);
+}
+
+.servicos__curso__fotos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3% 0%;
+}
+
+.servicos__curso__foto{
+    width: 19rem;
+    height: auto;
+    border-style: none;
+    border-color: var(--cor__principal);
+    border-radius: 5%;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1% 2%;
+    background-color: var(--cor__principal);
+    font-size: 1rem;
+    font-family: var(--fonte__padrao);
+    color: var(--cor__secundaria);
+    gap: 1rem;
+
+}
+
+.contato{
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    gap: 1rem;
+}
+
+.contato__titulo{
+    text-align: center;
+    font-size: 2rem;
+    padding: 2rem 0rem;
+}
+
+.contatos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.contatos__link {
+    text-decoration: none;
+    color: var(--cor__secundaria);
+}
+
+.contato__logo {
+    width: 1rem;
+    height: auto;
+    padding: 0.4rem;
+    background-color: var(--cor__secundaria);
+    border-style: none;
+    border-radius: 30%;
+    border-width: 0.25rem;
+    box-shadow: 0rem 0rem 0.6rem #000000;
+}
+.contato__logo:hover{
+    width: 2rem;
+    background-color: var(--cor__terciaria);
+    border-radius: 100%;
+}
+
+
+.dedicatoria__texto{
+    font-style: italic;
+    color: var(--cor__secundaria);
+
+}
